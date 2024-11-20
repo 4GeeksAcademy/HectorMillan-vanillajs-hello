@@ -1,0 +1,103 @@
+body{
+    width: 900px; 
+    
+    min-height: 100vh;
+    margin: 0 auto; 
+    margin-top: 100px;
+    background-color: #443e3e; 
+    text-align: center;
+    background-image: url("https://coworkingfy.com/wp-content/uploads/2019/12/transicion-emoticono-triste-feliz-motivacion-equipo-trabajo-1024x612.jpg");   
+    background-repeat: no-repeat; 
+    background-size: cover;
+   
+    background-position: center;
+  
+}
+
+.cuerpo{
+
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    border: solid #6e6b6b;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color:rgba(165, 161, 161, 0.5);
+   
+
+
+}
+
+.cabecera{
+  
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+   /* font-weight: <weight>; */
+    font-style: normal;
+    
+  
+}
+
+
+.cuerpoExcusa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 800px;
+    height: 400px;
+    padding: 0px;
+    background-color:rgba(165, 161, 161, 0.2);
+  
+   
+
+}
+
+#excuse{
+
+    font-size: 40px;
+    padding: 10px;
+    
+
+}
+
+.botonExcusas{
+   
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    border-top: 2px solid black; 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black; 
+    border-left: 2px solid black; 
+    cursor: pointer; 
+    font-size: 20px;
+    background-color: #6e6b6b;
+    border-radius: 10px;
+    
+  
+}
+
+.botonExcusas:hover{
+    font-size: 20px;
+    background-color: #d8d5d5;
+
+}
+
+
+.cajaBoton{
+ /*   background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   */ 
+   
+}
